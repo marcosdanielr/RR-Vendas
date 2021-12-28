@@ -1,0 +1,60 @@
+*{
+    font-weight: bold;
+    
+}       
+        
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.01);
+    outline: none;
+}
+
+div#form-body{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#form-body-cadastro{
+     /*background-color: red;*/
+     width: 420px;
+    margin: 100px auto 0px auto;    
+}
+
+
+div#form-body h1{
+    text-align: center;
+    padding: 20px;
+}
+
+div#form-body-cadastro h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}

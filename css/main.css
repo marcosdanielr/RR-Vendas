@@ -1,0 +1,264 @@
+body {
+    background-color: rgb(255, 255, 255);    
+    font-weight: bold;
+}
+
+
+.main-menu {
+    margin: auto;
+    width: 100%; 
+    height: 237px;          
+    background-image: linear-gradient(rgb(0, 0, 0), #464646); 
+}
+
+.logo
+{    
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 25px;    
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    
+}
+
+
+.text-main{
+    position: relative;    
+    text-align: center;
+    font-size: 25px;
+    top: 190px;
+    color: white;
+    font-family: 'Snell Roundhand Script';
+}
+   
+
+
+.social-media ul li {
+display: inline-block;
+float: right;
+position: relative;
+cursor: pointer;
+
+}
+
+
+.gotouserloginpage{       
+    position: relative;
+    float: right;     
+    top: 70px;
+    left: -20px;
+    color: white;    
+    text-align: center;
+    
+}
+
+.gotouserloginpage a{
+    text-align: center;
+    text-decoration: none;   
+    color: white;
+}   
+
+.gotouserloginpage a:any-link:hover{
+    color:rgb(255, 89, 0)
+}
+
+
+
+     /* Slideshow container */
+     .slideshow-container {    
+        background: #f1f1f1f1;
+      }
+
+      .slideshow-container a:any-link{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .slideshow-container a:any-link:hover{
+        color: rgb(255, 89, 0);
+        text-decoration: none;
+    }
+      
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;        
+        width: auto;
+        margin-top: -120px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        position: absolute;
+        right: 0;        
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+      
+      /* The dot/bullet/indicator container */
+      .dot-container {
+        text-align: center;
+        padding: 20px;
+        background: #ddd;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Add an italic font style to all quotes */
+      q {font-style: italic;}
+      
+      /* Add a blue color to the author */
+      .author {color: cornflowerblue;}
+
+      
+    
+
+
+
+
+*
+
+{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    margin: auto;
+    width: 100%;    
+    padding: 15px;
+    display: flex;
+    background: #202020;    
+    }
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul {
+    float: left;
+    list-style: none;
+    margin: auto;
+    width: 50%;
+    position: relative;
+
+}
+
+nav ul li {    
+    float: left;  
+    background: #202020;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    color: rgb(201, 201, 201); 
+}
+
+nav ul ul li a:hover {
+    color: rgb(201, 201, 201);
+    box-shadow: none;
+
+}
+
+nav ul ul {
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    visibility: hidden;        
+}
+
+nav ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;  
+
+}
+
+nav ul ul li
+{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul ul ul li
+{
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+
+
+
+.search
+{
+    display: flex;
+    text-align: center;
+    width: 41%;
+    max-width: 960px;
+    float: right;
+    position: relative;
+}
+
+.search input
+{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 25px;
+    padding: 12px;
+    width: 190px;    
+    margin-top: -50px;
+    border: 2px solid #494949;    
+    font-family: 'Arial', sans-serif;        
+    font-weight: normal;
+}
+
