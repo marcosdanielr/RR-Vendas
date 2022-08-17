@@ -51,8 +51,3 @@ for(var i = 0; i < links.length; i++){
     })
 }
 
-
-useEffect(() =>{    
-    localStorage.setItem('carrinho', JSON.stringify(carrinho));
-}, [carrinho])
-
